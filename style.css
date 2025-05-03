@@ -30,7 +30,7 @@ html {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 4rem 15%;
+    padding: 1.5rem 8%;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
