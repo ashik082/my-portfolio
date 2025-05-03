@@ -211,6 +211,14 @@ section {
     color: black;
 }
 
+.btn:focus,
+.gradient-btn:focus,
+.navbar a:focus {
+    outline: 2px dashed var(--main-color);
+    outline-offset: 4px;
+}
+
+
 .about {
     display: flex;
     justify-content: center;
@@ -252,11 +260,11 @@ section {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(-- bg-color);
+    background-color: var(--bg-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(-- main-color);
+    background-color: var(--main-color);
 }
 
 .heading {
@@ -313,7 +321,7 @@ section {
 .service-info h4 {
     font-size: 4rem;
     margin: 2rem 0;
-    Font-weight: 800;
+    font-weight: 800;
 }
 
 .service-info p {
@@ -365,6 +373,7 @@ section {
     max-width: 300px;
     border-radius: 2em;
     object-fit: cover;
+
 }
 
 .project-card h3 {
@@ -442,6 +451,9 @@ footer ul li a {
 }
 
 @media(max-width:1285px) {
+    section {
+        padding: 6rem 5%;
+    }
     #menu-icon {
         display: block;
     }
