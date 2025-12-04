@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message Received - Md. Ashikur Rahman</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            text-align: center;
-        }
-        .checkmark {
-            color: #4CAF50;
-            font-size: 5rem;
-            margin-bottom: 1rem;
-        }
-        .home-link {
-            display: inline-block;
-            margin-top: 2rem;
-            padding: 0.5rem 1rem;
-            background: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s;
-        }
-        .home-link:hover {
-            background: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="checkmark">✓</div>
-    <h1>Thank You!</h1>
-    <p>Your message has been successfully sent. I'll get back to you within <strong>24-48 hours</strong>.</p>
-    <p>For urgent inquiries, please email directly at <strong>ashik.work@gmail.com</strong></p>
-    
-    <a href="index.html" class="home-link">Return to Homepage</a>
-    
-    <!-- Optional: Auto-redirect after 8 seconds -->
+    <section class="contact" style="display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+        <div style="text-align: center; max-width: 600px;">
+            <div style="font-size: 8rem; color: var(--main-color); margin-bottom: 2rem;">
+                <i class='bx bx-check-circle'></i>
+            </div>
+
+            <h2 class="heading">Thank <span>You</span>!</h2>
+
+            <p style="font-size: 1.8rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                Your message has been successfully sent. I'll get back to you within <strong>24-48 hours</strong>.
+            </p>
+
+            <p style="font-size: 1.6rem; line-height: 1.8; margin-bottom: 3rem;">
+                For urgent inquiries, please email directly at <strong
+                    style="color: var(--main-color);">ashikurrahman0347@gmail.com</strong>
+            </p>
+
+            <a href="index.html" class="btn">Return to Homepage</a>
+        </div>
+    </section>
+
     <script>
-        setTimeout(function(){
+        setTimeout(function () {
             window.location.href = "index.html";
-        }, 8000);
+        }, 5000);
     </script>
 </body>
 </html>
